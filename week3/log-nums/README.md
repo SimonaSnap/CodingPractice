@@ -1,16 +1,22 @@
-# Odd or Even
+# Log Nums
 
-In this activity you will be writing code to create a function that determines whether a number is odd or even.
+In this activity you will be writing code to create a function that prints all whole numbers from 1 to a given number.
 
 ## Instructions
 
-* Open [Unsolved/odd-or-even.js](Unsolved/odd-or-even.js) in your code editor&mdash;this is the only file you will modify in this activity.
+* Open [Unsolved/log-nums.js](Unsolved/log-nums.js) in your code editor&mdash;this is the only file you will modify in this activity.
 
-  * In this file you will be writing code in the body of the `oddOrEven` function to achieve the following:
+  * In this file you will be writing code in the body of the `logNums` function to achieve the following:
 
-    * If `num` is evenly divisible by 2, return the string `"even"`.
+    * Print all numbers from `1` up to the given `nums` argument inclusive. For example, given the number `5` as the `num` argument, the following should be printed to the console, one log at a time:
 
-    * If `num` is not evenly divisible by 2, return the string `"odd"`.
+      ```bash
+      1
+      2
+      3
+      4
+      5
+      ```
 
 * You can check whether your function works properly by opening [Unsolved/test.html](Unsolved/test.html) in your web browser.
 
